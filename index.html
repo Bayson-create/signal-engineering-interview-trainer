@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="证据驱动的现代软件工程面试训练器" />
+  <title>Signal / 工程面试训练器</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">S</span><div><strong>Signal</strong><small>工程面试训练器</small></div></div>
+      <nav id="nav">
+        <button class="nav-item active" data-view="overview">总览 <span>01</span></button>
+        <button class="nav-item" data-view="evidence">证据库 <span>02</span></button>
+        <button class="nav-item" data-view="practice">练习实验室 <span>03</span></button>
+        <button class="nav-item" data-view="plan">训练路径 <span>04</span></button>
+        <button class="nav-item" data-view="settings">本机设置 <span>05</span></button>
+      </nav>
+      <div class="sidebar-foot"><span class="status-dot"></span><span>本机进度已保存</span></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div class="crumb">LEARNING SYSTEM <span>/</span> MODERN ENGINEERING HIRING</div><div class="top-actions"><span id="progressLabel">0% complete</span><button class="icon-btn" id="randomBtn" title="随机开始">↗</button></div></header>
+      <section id="view-overview" class="view active-view"></section>
+      <section id="view-evidence" class="view"></section>
+      <section id="view-practice" class="view"></section>
+      <section id="view-plan" class="view"></section>
+      <section id="view-settings" class="view"></section>
+    </main>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
