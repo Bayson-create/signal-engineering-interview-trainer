@@ -6,7 +6,7 @@
 
 - 以公司官方招聘页面为一手来源；对岗位/团队范围有限的案例明确标注。
 - 练习题与来源绑定；基础知识用随机选择题，编程能力用浏览器内 JavaScript 测试验证。
-- 进度和 DeepSeek API Key 只保存在浏览器本机 localStorage，不写入源码或仓库。
+- 进度和 DeepSeek API Key 只保存在浏览器本机 localStorage，不写入源码或仓库；AI 实验直接调用 DeepSeek Chat Completions，适合个人本机练习。
 - 本地运行：直接打开 `index.html`，或使用任意静态文件服务器。
 
 ## 当前内容
